@@ -31,7 +31,7 @@ This guide provides step-by-step instructions for installing Node.js on various 
 
 
 
-================================================================Installing NestJS ==============================================================================================================
+================================================================Installing NestJS 8/==================================================================================================
 
 # 🚀 NestJS Installation Guide
 
@@ -59,6 +59,9 @@ npm install -g @nestjs/cli
 nest --version
 
 To Run the Application
+#copy .env_sample to .env in the root folder
+cp .env_sample .env
+
 npm run start
 
 ================================================================Installing Reactjs ==============================================================================================================
@@ -94,6 +97,47 @@ Docker is a platform that enables developers to build, ship, and run application
 4. Verify Docker installation:
    ```bash
    docker --version
+
+
+
+================================================================Installing Mongo DB=======================================================================================================
+
+
+# 🍃 MongoDB Installation Guide
+
+MongoDB is a popular NoSQL database known for its flexibility, scalability, and ease of use. This guide covers installation on Windows, macOS, and Linux.
+
+---
+
+## ✅ Prerequisites
+
+- Admin rights on your machine
+- Internet connection
+
+---
+
+## 🖥️ Installation Instructions
+
+### 🔹 Windows
+
+1. Go to the MongoDB Community Server page:  
+   [https://www.mongodb.com/try/download/community](https://www.mongodb.com/try/download/community)
+
+2. Select:
+   - Version: Latest
+   - Platform: Windows
+   - Package: `.msi`
+
+3. Download and run the installer:
+   - Choose “Complete” setup
+   - Enable **MongoDB as a service**
+   - Optionally install **MongoDB Compass** (GUI)
+
+4. Verify installation:
+   Open Command Prompt and run:
+   ```bash
+   mongod --version
+
 
 ================================================================Cloning the Reposoitories=======================================================================================================
 
