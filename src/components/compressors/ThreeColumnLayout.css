@@ -1,0 +1,27 @@
+.three-column-layout {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.column {
+  flex: 1;
+  padding: 1rem;
+  background-color: #44c8f5;
+  border-radius: 8px;
+  min-height: 300px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.left {
+  background-color: #8acce2;
+}
+
+.center {
+  background-color: #8acce2;
+}
+
+.right {
+  background-color: #8acce2;
+}

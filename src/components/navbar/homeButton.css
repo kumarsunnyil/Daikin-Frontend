@@ -1,0 +1,16 @@
+.home-button {
+  display: inline-block;
+  padding: 0.3rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  /* background-color: #41465e; */
+}
+
+.home-icon {
+  height: 24px;
+  object-fit: contain;
+  margin-left: 100px;
+}

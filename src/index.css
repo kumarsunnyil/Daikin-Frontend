@@ -1,0 +1,78 @@
+body {
+    margin-top: 0px;
+  /* min-height: 100vh; */
+  /* background-color: dodgerblue; */
+  background-color: #fff;
+  /* background-color: #009acf; */
+}
+
+/* Login.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  background: rgb(191, 191, 193);
+  padding: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form h2 {
+  /* margin-bottom: 1.5rem; */
+  /* text-align: center; */
+  font-size: medium;
+  color: #333;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #357ab8;
+}
+
+.link-text {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.link-text a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.link-text a:hover {
+  text-decoration: underline;
+}
